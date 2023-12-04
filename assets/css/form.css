@@ -1,0 +1,32 @@
+.myform{
+    background-color: #eee;
+  }
+  /* "FIELDSETTET" ER "FLEXCONTAINEREN I DETTE TILFÆLDE" */
+  .myform fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .myform legend{
+    font-size: 1.2rem;
+  }
+  .myform label{
+    font-size: 0.8rem;
+  }
+  .myform input{
+    padding: 0.3rem;
+  }
+  /* BUTTON STYLING */
+  .myform input[type=submit]{
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: #4ae;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+    filter: saturate(0.6);
+    transition: 400ms;
+  }
+  .myform input[type=submit]:hover{
+    filter: saturate(1.2);
+  }

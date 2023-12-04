@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400&display=swap');
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.header-main {
+    position: relative;
+}
+
+header {
+    display: block;
+}
+
+.header-main img {
+    display: block;
+    width: 100%;
+}
+
+img {}
+
+.header-main hgroup {
+    position: absolute;
+    bottom: 1rem;
+    left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #ddd;
+    box-sizing: border-box;
+    border: 1vw solid #000;
+}
+
+.header-main hgroup h1 {
+    font-size: 22vw;
+    line-height: 80%;
+    margin-top: 0.7rem;
+    color: #bb1818;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+}

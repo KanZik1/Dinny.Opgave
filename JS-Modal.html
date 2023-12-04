@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-MODAL</title>
+    <!-- STYLES: -->
+    <link rel="stylesheet" href="Assets/css/main.css">
+    <link rel="stylesheet" href="Assets/css/modal.css">
+    <!-- SCRIPTS -->
+    <script src="assets/js/modal.js" defer></script>
+  </head>
+  <body>
+    <!-- THIS IS THE "EVENT - HANDLER" -->
+    <a href="#" onclick="displayModal('modal_container')">Show me the Modal please</a>
+    
+    <!-- START OF MODAL -->
+    <div id="modal_container" class="modal">
+      <div>
+    <!-- CLOSING  BUTTON -->
+        <span id="modal_close" onclick="closeModal('modal_container')" title="CLOSE THIS IMAGE"> &times;</span>
+        <div id="modalContent">
+          <img id="photo" src="./Assets/images/Logo-Goth.svg" alt="Sorry - No Image" />
+        </div>
+      </div>
+    </div>
+    <!-- END OF MODAL -->
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-GALLERY</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="Assets/css/main.css">
+    <link rel="stylesheet" href="Assets/css/gallery.css">
+    <!-- SCRIPTS -->
+    <script src="assets/js/Gallery.js" defer></script>
+    <style>
+        .section-gallery > img{
+            animation: opacity 1s ease-in-out;
+        }
+        
+        @keyframes opacity {
+        from {opacity: 0;}
+        to {opacity: 1;}
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-main">
+        <img src="assets/images/Header-bg.png" alt="">
+    </header>
+    <!-- SECTION GALLERY -->
+    <section class="section-gallery">
+            <!-- THE "ORIGINAL IMAGE" THAT IS LOADED VIA THE SRC -->
+            <img src="assets/images/Uploads/Sorry.png" id="imgLarge">
+            
+            <!-- THE CONTAINER ELEMENT (DIV IN THIS CASE) HAS CLASSNAME "imgCon" (Image Container)? -->
+            <div class="gallery_content">
+            <!-- EVERY ELEMENT: "IMG" ("this") HAS A DIFFERENT SOURCE, WHICH WILL REPLACE THE "ORIGINAL ONE" ON "ID:'image-large'" onclick ;0) -->
+                <img src="assets/images/Uploads/Uploads-01.png">
+                <img src="assets/images/Uploads/Uploads-02.png">
+                <img src="assets/images/Uploads/Uploads-03.png">
+                <img src="assets/images/Uploads/Uploads-04.png">
+                <img src="assets/images/Uploads/Uploads-05.png">
+                <img src="assets/images/Uploads/Uploads-06.png">
+            </div>
+    </section>
+</body>
+</html>
