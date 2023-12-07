@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400&display=swap');
 
+/* FARVE VARIABLER  */
+:root {
+    --light: #ddd;
+    --medium: #999;
+    --dark: #333;
+    --black: #212121;
+    --primary: #4ae;
+    --secondary: #ddd;
+    --danger: #bb1818;
+    --warning: #ef5400;
+    --success: #3b833b;
+    --static: #aaaaaa;
+    --active: #357baa; 
+}
+
 body {
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.container-main {
+    max-width: 1600px;
+    margin: auto;
+    border: 1px solid   ;
 }
 
 
@@ -19,7 +40,10 @@ header {
     width: 100%;
 }
 
-img {}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
 .header-main hgroup {
     position: absolute;
@@ -32,7 +56,7 @@ img {}
 }
 
 .header-main hgroup h1 {
-    font-size: 22vw;
+    font-size: 10.5vw;
     line-height: 80%;
     margin-top: 0.7rem;
     color: #bb1818;
@@ -43,3 +67,53 @@ h1 {
     font-weight: 400;
     font-family: 'Bebas Neue', sans-serif;
 }
+
+h1 span {
+    color: var(--black);
+}
+
+h2 {
+    color: var(--warning);
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 3vw;
+    margin: 0;
+    padding: 1rem;
+    font-size: 10vw;
+
+    /* margin-top: 1rem; */
+    background-color: var(--black);
+}
+
+
+.about {
+    color: var(--warning);
+   font-family: 'Smooch Sans';
+   font-size: 2vw;
+   background-color: var(--black);
+
+}
+
+/* MAIN FOOTER  */
+
+
+.footer-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    color: var(--active);
+}
+
+.footer-main h3 {
+    color: var(--warning);
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 3vw;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  

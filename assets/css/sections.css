@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400;500;600&display=swap');
+:root {
+    --light: #ddd;
+    --medium: #999;
+    --dark: #333;
+    --black: #212121;
+    --primary: #4ae;
+    --secondary: #ddd;
+    --danger: #bb1818;
+    --warning: #ef5400;
+    --success: #3b833b;
+    --static: #aaaaaa;
+    --active: #357baa; 
+}
+
+/* GENERELLE ATTRIBUTER FOR MINE SECTIONS  */
+
+section {
+    background-color: #212121;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+section h3 {
+    font-size: 2vw;
+    margin: 1rem;
+}
+
+section a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    color: var(--light);
+    font-size: 1.3rem;
+}
+
+section article p {
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+
+/* SEKTION 1  */
+
+.section-one img  {
+    width: 100%;
+}
+
+h3 {
+    color: var(--active);
+}
+
+.article-one {
+    color: var(--light);
+}
+
+/* SEKTION 2  */
+
+.section-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--light);
+    gap: 1rem;
+    background-color: var(--black);
+    
+}
+
+.section-two img {
+  width: 100%;
+
+}
+
+.stor {
+  
+}
+
+/* SEKTION 3  */
+
+.section-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--light);
+    gap: 1rem;
+}
+
+.section-three img {
+    width: 100%;
+}
+
+/* SEKTION 4  */
+/* .section-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    
+} */
+
+/* .section-four figure {
+    gap: 1rem;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-four figure img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.section-four figure figcaption {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000aa;
+    transition: 400ms ease-in-out;
+}
+
+.section-four figure figcaption article {
+    position: relative;
+    margin: 1rem;
+}
+
+section figure article {
+    padding: 1rem;
+}
+
+article {
+    display: block;
+}
+
+figcaption {
+    display: block;
+} */
+
+
+
+.section-four img {
+    width: 100%;
+}
