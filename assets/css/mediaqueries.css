@@ -1,0 +1,48 @@
+/* NAV QUIRIES  */
+/* OVER 800PX  */
+/* Base styles - these apply when no media query conditions are met */
+
+@media (max-width: 800px) {
+    .nav-main {
+        flex-direction: column;
+        /* Stacks the <ul> elements vertically */
+    }
+
+    nav ul {
+        display: block;
+        /* Stacks the <li> elements vertically */
+        width: 100%;
+        /* Ensures <ul> takes full width */
+    }
+
+    nav ul li {
+        width: 100%;
+        /* Ensures each <li> takes full width */
+        text-align: center;
+        /* Optional: centers the text in each <li> */
+    }
+}
+
+/* GALLERI QUIRIES  */
+/* OVER 800PX */
+@media (min-width: 800px) {
+    .section-four div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* OVER 1200PX */
+@media (min-width: 1200px) {
+    .section-four div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-two {
+        display: none;
+        grid-template-columns: 1fr;
+    }
+
+
+}

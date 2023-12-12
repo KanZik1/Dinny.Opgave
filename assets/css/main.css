@@ -13,7 +13,7 @@
     --warning: #ef5400;
     --success: #3b833b;
     --static: #aaaaaa;
-    --active: #357baa; 
+    --active: #357baa;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 .container-main {
     max-width: 1600px;
     margin: auto;
-    border: 1px solid   ;
+    border: 1px solid;
 }
 
 
@@ -87,9 +87,9 @@ h2 {
 
 .about {
     color: var(--warning);
-   font-family: 'Smooch Sans';
-   font-size: 2vw;
-   background-color: var(--black);
+    font-family: 'Smooch Sans';
+    font-size: 2vw;
+    background-color: var(--black);
 
 }
 
@@ -101,6 +101,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     color: var(--active);
+    background-color: var(--black);
 }
 
 .footer-main h3 {
@@ -115,5 +116,4 @@ h2 {
     color: red;
     font-size: 0.8rem;
     margin-top: 5px;
-  }
-  
+}
